@@ -1,0 +1,130 @@
+html {
+    max-width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    max-width: 450px;
+    margin: auto;
+    margin-top: 34px;
+    border-radius: 20px;
+    background-color: hsl(216, 50%, 16%);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.image-container {
+    position: relative;
+    width: fit-content;
+    /* overflow: hidden; */
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsl(178, 100%, 50%);
+    opacity: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.image-container:hover{
+    visibility: visible;
+    cursor: pointer;
+}
+
+div {
+    margin: auto;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+.display-image {
+    border-radius: 15px;
+    height: 425px;
+    width: 445px;
+    background-color: none;
+    display: block;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.details {
+    font-family: 'Outfit', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: hsl(215, 51%, 70%);
+}
+
+.other-details {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 25px;
+    color: hsl(215, 51%, 70%);
+}
+
+.clock-icon {
+    padding-right: 8px;
+}
+
+.eth {
+    display: flex;
+}
+
+h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-icon {
+    padding-right: 8px;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+}
+
+.avatar-con {
+    display: flex;
+    margin-bottom: 32px;
+    padding-bottom: 25px;
+    padding-top: 16px;
+}
+
+.avatar {
+    height: 60px;
+    width: 60px;
+    padding-right: 32px;
+}
+
+.creation {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
